@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>personal data</legend>
+        <ul>
+            <li>
+            <label for="frame">First name</label>
+            <input type="text" name="text" id="fname" required placeholder="your firstname">
+            </li>
+            <li>
+                <label for="surname">Surname</label>
+                <input type="text" name="text" id="surname" required placeholder="your surname">
+            </li>
+            <li>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email"> 
+            </li>
+            <li>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="tel" id="phone" required placeholder="+234********">
+            </li>
+            <li>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="date" id="dob">
+            </li>
+            <li>
+                <label for="country">Country</label>
+                <select>
+                    <optgroup label="africa">
+                        <option value="ng" selected>Nigeria</option>
+                        <option value="gh">ghana</option>
+                        <option value="sa">south africa</option>
+
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="jp">japan</option>
+                        <option value="ch">china</option>
+
+                    </optgroup>
+                    <optgroup label="America">
+                        <option value="us">usa</option>
+                        <option value="mex">mexico</option>
+                        <option value="fr">france</option>
+                        <option value="en">england</option>
+                        <option value="br">brazil</option>
+
+                    </optgroup>
+                </select>
+            </li>
+        </ul>
+        </fieldset>
+        <fieldset>
+            <legend>official use</legend>
+        </fieldset>
+        <input type="submit" value="sign up">
+    </form>
+</body>
+</html>
